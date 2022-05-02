@@ -1,0 +1,10 @@
+executable = LOGDIR/PREFIX.sh
+output = LOGDIR/PREFIX.out
+log = LOGDIR/PREFIX.log
+error = LOGDIR/PREFIX.error
+
+should_transfer_files = IF_NEEDED
+request_memory        = 12000
+
+#Restrict to sl7 machines
++REQUIRED_OS = "rhel7"

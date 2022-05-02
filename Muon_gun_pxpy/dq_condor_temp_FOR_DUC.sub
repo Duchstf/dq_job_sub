@@ -1,0 +1,13 @@
+universe = vanilla
+
+executable = LOGDIR/PREFIX.sh
+output = LOGDIR/PREFIX.out
+log = LOGDIR/PREFIX.log
+error = LOGDIR/PREFIX.error
+
+should_transfer_files = IF_NEEDED
+request_memory        = 12000
+requirements = GLIDEIN_Site == "MIT_CampusFactory" && BOSCOCluster == "ce03.cmsaf.mit.edu" && BOSCOGroup == "@group@" && HAS_CVMFS_cms_cern_ch
+
+#Restrict to sl7 machines
+#+REQUIRED_OS = "rhel7"
