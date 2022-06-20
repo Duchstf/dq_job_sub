@@ -1,0 +1,24 @@
+Found non option element - in command line.
+INFO:    Converting SIF file to temporary sandbox...
+SysError in <TFile::TFile>: could not delete vertex_eval.root (errno: 30) (Read-only file system)
+/home/submit/wmccorma/singularity_test2/e1039-core/packages/reco/SQGenFit/GFTrack.cxx 323: hypo test failed vertex @Z=-500: genfit::Exception thrown with excString:
+RKTrackRep::RKutta ==> Total extrapolation length is longer than length limit : 3003 cm !
+in line: 1920 in file: /seaquest/analysis/kenichi/e1039/src-osg/e1039-share/build/genfit/GenFit/trackReps/src/RKTrackRep.cc
+with fatal flag 0
+
+/home/submit/wmccorma/singularity_test2/e1039-core/packages/reco/SQGenFit/GFTrack.cxx 323: hypo test failed vertex @Z=-300: genfit::Exception thrown with excString:
+TGeoMaterialInterface::findNextBoundary ==> maximum number of iterations exceeded
+in line: 108 in file: /seaquest/analysis/kenichi/e1039/src-osg/e1039-share/build/genfit/GenFit/trackReps/src/TGeoMaterialInterface.cc
+with fatal flag 0
+
+/home/submit/wmccorma/singularity_test2/e1039-core/packages/reco/SQGenFit/GFTrack.cxx 323: hypo test failed vertex @Z=42: genfit::Exception thrown with excString:
+TGeoMaterialInterface::findNextBoundary ==> maximum number of iterations exceeded
+in line: 108 in file: /seaquest/analysis/kenichi/e1039/src-osg/e1039-share/build/genfit/GenFit/trackReps/src/TGeoMaterialInterface.cc
+with fatal flag 0
+
+/home/submit/wmccorma/singularity_test2/e1039-core/packages/reco/SQGenFit/GFTrack.cxx 323: hypo test failed vertex @Z=-500: genfit::Exception thrown with excString:
+TGeoMaterialInterface::findNextBoundary ==> maximum number of iterations exceeded
+in line: 108 in file: /seaquest/analysis/kenichi/e1039/src-osg/e1039-share/build/genfit/GenFit/trackReps/src/TGeoMaterialInterface.cc
+with fatal flag 0
+
+INFO:    Cleaning up image...

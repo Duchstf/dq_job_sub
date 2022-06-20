@@ -1,0 +1,32 @@
+universe = vanilla
+
+executable = /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.sh
+output = /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.out
+log = /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.log
+error = /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.error
+
+should_transfer_files = IF_NEEDED
+transfer_input_files =  /work/submit/dhoang/DQ/e1039-core/DarkQuest/e1039-analysis/SimHits/macro/RunEmbedding_AprimeMumu_Template.C, /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.sh, /work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4_singularity.sh, setup_mye1039.sh, \
+                        /usr/lib64/libgsl.so.0, /usr/lib64/libicuuc.so.50, /usr/lib64/atlas/libsatlas.so.3
+transfer_output_files = 
+
+request_memory    	= 5000
+
+use_x509userproxy 	= True
+x509userproxy     	= /home/submit/dhoang/x509up_u207327
+
+#Submit to OSG using this line
++ProjectName = DarkQuest_dhoang_sample_gen
+
+#Restrict to sl7 machines
++REQUIRED_OS = "rhel7"
+
+#Set job ID variable
+environment = CONDOR_JOB_ID=$(Cluster)
+
+requirements = \
+  (OSGVO_OS_STRING == "RHEL 7") || \
+  (HAS_SINGULARITY == true || GLIDEIN_REQUIRED_OS == "rhel7") || \
+  (GLIDEIN_Site == "MIT_CampusFactory" && (BOSCOGroup == "paus" || BOSCOGroup == "bosco_cms"))
+
+queue

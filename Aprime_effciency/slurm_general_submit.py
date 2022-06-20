@@ -58,7 +58,7 @@ def submit_job(config_file, config_dir):
 
     #print(local_slurm)
     #os.system('sbatch --output=/dev/null --error=/dev/null {}'.format(local_slurm))
-    os.system('sbatch {}'.format(local_slurm))
+    #os.system('sbatch {}'.format(local_slurm))
 
     slurm_templ_file.close()
     

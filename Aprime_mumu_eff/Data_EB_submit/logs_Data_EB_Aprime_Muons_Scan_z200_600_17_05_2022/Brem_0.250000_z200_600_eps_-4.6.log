@@ -1,0 +1,265 @@
+000 (163636.000.000) 2022-05-17 17:08:10 Job submitted from host: <18.12.2.5:9615?addrs=18.12.2.5-9615&alias=SUBMIT04.MIT.EDU&noUDP&sock=schedd_3282791_2754>
+...
+028 (163636.000.000) 2022-05-17 17:08:10 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:08:10.925"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+MyType = "SubmitEvent"
+Proc = 0
+SubmitHost = "<18.12.2.5:9615?addrs=18.12.2.5-9615&alias=SUBMIT04.MIT.EDU&noUDP&sock=schedd_3282791_2754>"
+Subproc = 0
+TriggerEventTypeName = "ULOG_SUBMIT"
+TriggerEventTypeNumber = 0
+...
+040 (163636.000.000) 2022-05-17 17:08:38 Started transferring input files
+	Transferring to host: <18.12.8.52:40804?CCBID=18.4.112.27:11000%3faddrs%3d18.4.112.27-11000%26alias%3dT3SERV007.MIT.EDU%26noUDP%26sock%3dcollector#12172474&PrivNet=T2BAT0052.CMSAF.MIT.EDU&addrs=18.12.8.52-40804&noUDP>
+...
+028 (163636.000.000) 2022-05-17 17:08:38 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:08:38.471"
+EventTypeNumber = 28
+Host = "<18.12.8.52:40804?CCBID=18.4.112.27:11000%3faddrs%3d18.4.112.27-11000%26alias%3dT3SERV007.MIT.EDU%26noUDP%26sock%3dcollector#12172474&PrivNet=T2BAT0052.CMSAF.MIT.EDU&addrs=18.12.8.52-40804&noUDP>"
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 2
+...
+040 (163636.000.000) 2022-05-17 17:08:39 Finished transferring input files
+...
+028 (163636.000.000) 2022-05-17 17:08:39 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:08:39.077"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 3
+...
+001 (163636.000.000) 2022-05-17 17:08:39 Job executing on host: <18.12.8.52:47884?CCBID=18.4.112.27:11000%3faddrs%3d18.4.112.27-11000%26alias%3dT3SERV007.MIT.EDU%26noUDP%26sock%3dcollector#12172309&PrivNet=T2BAT0052.CMSAF.MIT.EDU&addrs=18.12.8.52-47884&noUDP>
+...
+028 (163636.000.000) 2022-05-17 17:08:39 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:08:39.988"
+EventTypeNumber = 28
+ExecuteHost = "<18.12.8.52:47884?CCBID=18.4.112.27:11000%3faddrs%3d18.4.112.27-11000%26alias%3dT3SERV007.MIT.EDU%26noUDP%26sock%3dcollector#12172309&PrivNet=T2BAT0052.CMSAF.MIT.EDU&addrs=18.12.8.52-47884&noUDP>"
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MyType = "ExecuteEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_EXECUTE"
+TriggerEventTypeNumber = 1
+...
+006 (163636.000.000) 2022-05-17 17:08:48 Image size of job updated: 2
+	2  -  MemoryUsage of job (MB)
+	1808  -  ResidentSetSize of job (KB)
+...
+028 (163636.000.000) 2022-05-17 17:08:48 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:08:48.102"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MemoryUsage = 2
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1808
+Size = 2
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (163636.000.000) 2022-05-17 17:11:27 Image size of job updated: 2945372
+	2  -  MemoryUsage of job (MB)
+	1808  -  ResidentSetSize of job (KB)
+...
+028 (163636.000.000) 2022-05-17 17:11:27 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:11:27.530"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MemoryUsage = 2
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1808
+Size = 2945372
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+040 (163636.000.000) 2022-05-17 17:11:27 Started transferring output files
+...
+028 (163636.000.000) 2022-05-17 17:11:27 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:11:27.547"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 5
+...
+040 (163636.000.000) 2022-05-17 17:11:33 Finished transferring output files
+...
+028 (163636.000.000) 2022-05-17 17:11:33 Job ad information event triggered.
+Cluster = 163636
+EventTime = "2022-05-17T17:11:33.705"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 6
+...
+005 (163636.000.000) 2022-05-17 17:11:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:21, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:21, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	149755408  -  Run Bytes Sent By Job
+	14677045  -  Run Bytes Received By Job
+	149755408  -  Total Bytes Sent By Job
+	14677045  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   170125        1    136251 
+	   Memory (MB)          :        2     5000      5000 
+...
+028 (163636.000.000) 2022-05-17 17:11:33 Job ad information event triggered.
+Cluster = 163636
+Cpus = 1
+Disk = 136251
+DiskUsage = 170125
+EventTime = "2022-05-17T17:11:33.731"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "Unknown"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+JOB_GLIDEIN_Factory = "Unknown"
+JOB_GLIDEIN_Name = "Unknown"
+JOB_GLIDEIN_ProcId = "Unknown"
+JOB_GLIDEIN_Schedd = "Unknown"
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+JOB_GLIDEIN_SiteWMS = "Unknown"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "MIT_CampusFactory"
+Memory = 5000
+MemoryUsage = 2
+MyType = "JobTerminatedEvent"
+Proc = 0
+ReceivedBytes = 14677045.0
+RequestCpus = 1
+RequestDisk = 1
+RequestMemory = 5000
+ReturnValue = 0
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+RunRemoteUsage = "Usr 0 00:01:21, Sys 0 00:00:02"
+SentBytes = 149755408.0
+Subproc = 0
+TerminatedNormally = true
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalReceivedBytes = 14677045.0
+TotalRemoteUsage = "Usr 0 00:01:21, Sys 0 00:00:02"
+TotalSentBytes = 149755408.0
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TriggerEventTypeNumber = 5
+...

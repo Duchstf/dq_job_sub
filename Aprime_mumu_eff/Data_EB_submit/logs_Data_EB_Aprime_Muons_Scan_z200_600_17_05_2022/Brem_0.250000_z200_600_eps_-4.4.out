@@ -1,0 +1,566 @@
+ ==== START CONDOR WRAPPER =======================
+ Running on: t2bat0110.cmsaf.mit.edu
+t2bat0110.cmsaf.mit.edu
+ Executing: /condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254/condor_exec.exe
+ Dir: /export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254
+/export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254
+ Id: uid=10043(bosco_cms) gid=10043(bosco_cms) groups=10043(bosco_cms)
+ ==== from this machine
+ OSVERSION:       el7
+ ==== from this jobad
+ SingularityImage: 
+ REQUIRED_OS:      rhel7
+ ==== EXECUTE CONDOR_WRAPPER ====
+ exec "/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254/condor_exec.exe" 
+t2bat0110.cmsaf.mit.edu
+proxy id
+/export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254
+total 14372
+-rw-r--r-- 1 bosco_cms bosco_cms      846 May 17 17:08 _condor_stdout
+-rw-r--r-- 1 bosco_cms bosco_cms       44 May 17 17:08 _condor_stderr
+-rw-r--r-- 1 bosco_cms bosco_cms      352 May 17 17:08 Brem_0.250000_z200_600_eps_-4.4_singularity.sh
+-rw-r--r-- 1 bosco_cms bosco_cms     4172 May 17 17:08 RunEmbedding_AprimeMumu_Template.C
+-rwxr-xr-x 1 bosco_cms bosco_cms     1790 May 17 17:08 condor_exec.exe
+-rwxr-xr-x 1 bosco_cms bosco_cms  2278944 May 17 17:08 libgsl.so.0
+-rwxr-xr-x 1 bosco_cms bosco_cms  1539520 May 17 17:08 libicuuc.so.50
+-rwxr-xr-x 1 bosco_cms bosco_cms 10851896 May 17 17:08 libsatlas.so.3
+-rwxr-xr-x 1 bosco_cms bosco_cms      371 May 17 17:08 setup_mye1039.sh
+-rw------- 1 bosco_cms bosco_cms    12243 May 17 17:08 x509up_u207327
+Condor Job ClassAds
+RemoteSlotID = 1
+WantRemoteSyscalls = false
+JobStartDate = 1652821717
+x509UserProxyVOName = "cms"
+JOB_GLIDEIN_Factory = "Unknown"
+NumCkpts = 0
+UserLog = "/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.log"
+Owner = "dhoang"
+Requirements = ( ( OSGVO_OS_STRING == "RHEL 7" ) || ( HAS_SINGULARITY == true || GLIDEIN_REQUIRED_OS == "rhel7" ) || ( GLIDEIN_Site == "MIT_CampusFactory" && ( BOSCOGroup == "paus" || BOSCOGroup == "bosco_cms" ) ) ) && ( TARGET.Arch == "X86_64" ) && ( TARGET.OpSys == "LINUX" ) && ( TARGET.Disk >= RequestDisk ) && ( TARGET.Memory >= RequestMemory ) && ( ( TARGET.FileSystemDomain == MY.FileSystemDomain ) || ( TARGET.HasFileTransfer ) )
+NumJobMatches = 1
+EncryptExecuteDirectory = false
+MachineAttrGLIDEIN_CMSSite0 = undefined
+NumJobStarts = 0
+CurrentHosts = 1
+RequestMemory = 5000
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JobLeaseDuration = 2400
+Arguments = ""
+StreamErr = false
+REQUIRED_OS = "rhel7"
+ProcId = 0
+StartdPrincipal = "execute-side@matchsession/18.12.8.110"
+StartdIpAddr = "<18.12.8.110:41534?CCBID=18.4.112.27:11000%3faddrs%3d18.4.112.27-11000%26alias%3dT3SERV007.MIT.EDU%26noUDP%26sock%3dcollector#12171838&PrivNet=T2BAT0110.CMSAF.MIT.EDU&addrs=18.12.8.110-41534&noUDP>"
+CoreSize = 0
+MinHosts = 1
+ClusterId = 163635
+CumulativeSuspensionTime = 0
+TransferIn = false
+x509UserProxyEmail = "dhoang@mit.edu"
+OrigIwd = "/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit"
+CumulativeRemoteUserCpu = 0.0
+RemoteUserCpu = 0.0
+NumJobCompletions = 0
+CumulativeSlotTime = 0
+ShadowBday = 1652821717
+GlobalJobId = "SUBMIT04.MIT.EDU#163635.0#1652821689"
+JobPrio = 0
+JOB_GLIDEIN_ClusterId = "Unknown"
+WantCheckpoint = false
+ImageSize = 2
+In = "/dev/null"
+CommittedSuspensionTime = 0
+Iwd = "/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254"
+ExitBySignal = false
+LastRejMatchReason = "no match found "
+MachineAttrSlotWeight0 = 1
+DiskUsage = 15000
+Rank = 0.0
+RemoteHost = "slot1_1@25983@T2BAT0110.CMSAF.MIT.EDU"
+JOB_GLIDEIN_SiteWMS_JobId = "Unknown"
+ShouldTransferFiles = "IF_NEEDED"
+Out = "_condor_stdout"
+TransferInputSizeMB = 14
+OnExitRemove = true
+JobUniverse = 5
+RequestCpus = 1
+OrigMaxHosts = 1
+MemoryProvisioned = 5000
+UidDomain = "cms"
+CumulativeRemoteSysCpu = 0.0
+RemoteSysCpu = 0.0
+PublicClaimId = "<18.12.8.110:41534>#1652821034#51#..."
+FileSystemDomain = "SUBMIT00.MIT.EDU"
+JobRunCount = 1
+Env = "CONDOR_JOB_ID=163635"
+LastMatchTime = 1652821717
+CommittedTime = 0
+DiskProvisioned = 177090
+TotalSubmitProcs = 1
+OnExitHold = false
+x509UserProxyExpiration = 1653509510
+JobNotification = 0
+LeaveJobInQueue = false
+TotalSuspensions = 0
+WhenToTransferOutput = "ON_EXIT"
+CondorVersion = "$CondorVersion: 9.0.11 Mar 12 2022 BuildID: 578027 PackageID: 9.0.11-1 $"
+x509UserProxyFirstFQAN = "/cms/Role=NULL/Capability=NULL"
+Err = "_condor_stderr"
+PeriodicRemove = false
+ImageSize_RAW = 2
+NumRestarts = 0
+DelegatedProxyExpiration = 1652908118
+WantRemoteIO = true
+PeriodicHold = false
+JobCurrentStartDate = 1652821717
+ProvisionedResources = "Cpus Memory Disk Swap"
+JOB_GLIDEIN_ProcId = "Unknown"
+User = "dhoang@cms"
+CompletionDate = 0
+ShadowIpAddr = "<18.12.2.5:9615?addrs=18.12.2.5-9615&alias=SUBMIT04.MIT.EDU&noUDP&sock=shadow_3282869_f152_1775870>"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+TransferInput = "/work/submit/dhoang/DQ/e1039-core/DarkQuest/e1039-analysis/SimHits/macro/RunEmbedding_AprimeMumu_Template.C,/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.sh,/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4_singularity.sh,setup_mye1039.sh,/usr/lib64/libgsl.so.0,/usr/lib64/libicuuc.so.50,/usr/lib64/atlas/libsatlas.so.3"
+x509UserProxyFQAN = "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=duhoang/CN=853469/CN=Duc Hoang,/cms/Role=NULL/Capability=NULL"
+NumSystemHolds = 0
+JOB_GLIDEIN_Site = "MIT_CampusFactory"
+NumShadowStarts = 1
+LastRejMatchTime = 1652821711
+ExitStatus = 0
+JobStatus = 2
+MyType = "Job"
+DiskUsage_RAW = 14339
+NumCkpts_RAW = 0
+RemoteWallClockTime = 0.0
+RootDir = "/"
+JOB_Site = "MIT_CampusFactory"
+PeriodicRelease = false
+LastJobStatus = 1
+QDate = 1652821688
+ExecutableSize = 2
+LastJobLeaseRenewal = 1652821718
+CondorPlatform = "$CondorPlatform: x86_64_CentOS7 $"
+TransferSocket = "<18.12.2.5:9615?addrs=18.12.2.5-9615&alias=SUBMIT04.MIT.EDU&noUDP&sock=shadow_3282869_f152_1775870>"
+TargetType = "Machine"
+OrigCmd = "/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.sh"
+CommittedSlotTime = 0
+RemotePool = "t3serv007.mit.edu:11000?sock=collector"
+EnvDelim = ";"
+JOB_GLIDEIN_Entry_Name = "Unknown"
+x509userproxy = "/home/submit/dhoang/x509up_u207327"
+JOB_GLIDEIN_Name = "Unknown"
+StreamOut = false
+x509userproxysubject = "/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=duhoang/CN=853469/CN=Duc Hoang"
+JOB_GLIDEIN_Schedd = "Unknown"
+ProjectName = DarkQuest_dhoang_sample_gen
+RequestDisk = 1
+MachineAttrCpus0 = 1
+MaxHosts = 1
+JOB_GLIDEIN_SiteWMS = "Unknown"
+LastSuspensionTime = 0
+ExecutableSize_RAW = 2
+EnteredCurrentStatus = 1652821717
+Cmd = "/work/submit/dhoang/DQ/dq_job_sub/Aprime_mumu_eff/Data_EB_submit/logs_Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.sh"
+JobAdInformationAttrs = "JOB_Site JOB_GLIDEIN_Entry_Name JOB_GLIDEIN_Name JOB_GLIDEIN_Factory JOB_GLIDEIN_Schedd JOB_GLIDEIN_ClusterId JOB_GLIDEIN_ProcId JOB_GLIDEIN_Site JOB_GLIDEIN_SiteWMS JOB_GLIDEIN_SiteWMS_Slot JOB_GLIDEIN_SiteWMS_JobId JOB_GLIDEIN_SiteWMS_Queue"
+ShadowVersion = "$CondorVersion: 9.0.11 Mar 12 2022 BuildID: 578027 PackageID: 9.0.11-1 $"
+CpusProvisioned = 1
+MyAddress = "<18.12.2.5:9615?addrs=18.12.2.5-9615&alias=SUBMIT04.MIT.EDU&noUDP&sock=shadow_3282869_f152_1775870>"
+Copying singularity image
+Copying 159498240 bytes gsiftp://se01.cmsaf.mit.edu:2811//mitgroups/DarkQuest/wmccorma/new-sif.sif => file:///export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254/new-sif.sif
+Copying Signal DST file
+Copying 165174343 bytes gsiftp://se01.cmsaf.mit.edu:2811//mitgroups/DarkQuest/dhoang/Aprime_Muons_Scan_z200_600_18_04_2022/Brem_0.250000_z200_600_eps_-4.4_DST.root => file:///export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254/Brem_0.250000_z200_600_eps_-4.4_DST.root
+Copying Data DST file
+Copying 52780904 bytes gsiftp://se01.cmsaf.mit.edu:2811//mitgroups/DarkQuest/0053/embedding_data.root => file:///export/data1/condor/execute/dir_25918/tmp.mFyFZ742DO/execute.18.12.8.110-25983/dir_27254/embedding_data.root
+Check before singularity
+total 382996
+-rw-r--r-- 1 bosco_cms bosco_cms      8424 May 17 17:09 _condor_stdout
+-rwxr-xr-x 1 bosco_cms bosco_cms  52780904 May 17 17:09 embedding_data.root
+-rwxr-xr-x 1 bosco_cms bosco_cms 165174343 May 17 17:09 Brem_0.250000_z200_600_eps_-4.4_DST.root
+-rwxr-xr-x 1 bosco_cms bosco_cms 159498240 May 17 17:08 new-sif.sif
+-rw-r--r-- 1 bosco_cms bosco_cms        44 May 17 17:08 _condor_stderr
+-rw-r--r-- 1 bosco_cms bosco_cms       352 May 17 17:08 Brem_0.250000_z200_600_eps_-4.4_singularity.sh
+-rw-r--r-- 1 bosco_cms bosco_cms      4172 May 17 17:08 RunEmbedding_AprimeMumu_Template.C
+-rwxr-xr-x 1 bosco_cms bosco_cms      1790 May 17 17:08 condor_exec.exe
+-rwxr-xr-x 1 bosco_cms bosco_cms   2278944 May 17 17:08 libgsl.so.0
+-rwxr-xr-x 1 bosco_cms bosco_cms   1539520 May 17 17:08 libicuuc.so.50
+-rwxr-xr-x 1 bosco_cms bosco_cms  10851896 May 17 17:08 libsatlas.so.3
+-rwxr-xr-x 1 bosco_cms bosco_cms       371 May 17 17:08 setup_mye1039.sh
+-rw------- 1 bosco_cms bosco_cms     12243 May 17 17:08 x509up_u207327
+/core-inst/this-e1039.sh
+/tmp/163635
+/cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/share/root/bin/root
+total 208M
+drwxr-xr-x 2 10043 10043 4.0K May 17 17:09 lib64
+-rwxr-xr-x 1 10043 10043  51M May 17 17:09 embedding_data.root
+-rw-r--r-- 1 10043 10043  352 May 17 17:09 Brem_0.250000_z200_600_eps_-4.4_singularity.sh
+-rwxr-xr-x 1 10043 10043 158M May 17 17:09 Brem_0.250000_z200_600_eps_-4.4_DST.root
+-rw-r--r-- 1 10043 10043 4.1K May 17 17:09 RunEmbedding.C
+-rwxr-xr-x 1 10043 10043  371 May 17 17:09 setup_mye1039.sh
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.16/00                  https://root.cern |
+  |                               (c) 1995-2018, The ROOT Team |
+  | Built for linuxx8664gcc on Jan 23 2019, 09:06:13           |
+  | From tags/v6-16-00@v6-16-00                                |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing /tmp/$CONDOR_JOB_ID/RunEmbedding.C("/tmp/$CONDOR_JOB_ID/Brem_0.250000_z200_600_eps_-4.4_DST.root","output.root","/tmp/$CONDOR_JOB_ID/","/tmp/$CONDOR_JOB_ID/embedding_data.root",10)...
+N of events:
+  In signal    data file = 10000
+  In embedding data file = 5908
+  To be processed        = 10
+Fun4AllServer: Runnumber forced to 1 by RUNNUMBER IntFlag
+Fun4AllServer::setRun(): could not get timestamp for run  1, using tics(0) timestamp: Wed Dec 31 19:00:00 1969
+PHFieldConfig_v3::PHFieldConfig_v3:
+ from file1 [/cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/geometry/magnetic_fields/tab.Fmag]
+  and file2 [/cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/geometry/magnetic_fields/tab.Kmag]
+scale1: -1.054, scale2: -0.951, targetmag_y: 5
+
+================ Begin Construct Mag Field =====================
+
+-----------------------------------------------------------
+      Magnetic field Module - Verbosity:
+-----------------------------------------------------------
+SQField3DCartesian: loading field map from ASCII file /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/geometry/magnetic_fields/tab.Fmag
+  its demensions and ranges of the field: 1157123
+    X: 131 bins, -330.2 cm -- 330.2 cm, step size = 5.08 cm.
+    Y: 121 bins, -304.8 cm -- 304.8 cm, step size = 5.08 cm.
+    Z: 73 bins, -203.2 cm -- 711.2 cm, step size = 12.7 cm.
+
+================= End Construct Mag Field ======================
+
+
+================ Begin Construct Mag Field =====================
+
+-----------------------------------------------------------
+      Magnetic field Module - Verbosity:
+-----------------------------------------------------------
+SQField3DCartesian: loading field map from ASCII file /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/geometry/magnetic_fields/tab.Kmag
+  its demensions and ranges of the field: 146853
+    X: 49 bins, -304.8 cm -- 304.8 cm, step size = 12.7 cm.
+    Y: 37 bins, -228.6 cm -- 228.6 cm, step size = 12.7 cm.
+    Z: 81 bins, -508 cm -- 508 cm, step size = 12.7 cm.
+
+================= End Construct Mag Field ======================
+
+PHFieldRegionalConst::identify: {0, 0, 0}	 {5}
+GeomSvc:  Load the plane geometry info for run = 1.
+Read channel map from user_e1039_geom_plane.param_G9_run5_2.
+GeomSvc: loaded hodoscope alignment parameters from /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/alignment/run6/alignment_hodo.txt
+GeomSvc: loaded prop. tube alignment parameters from /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/alignment/run6/alignment_prop.txt
+GeomSvc: loaded millepede-based alignment parameters from /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/alignment/run6/align_mille.txt
+GeomSvc: loaded calibration parameters from /cvmfs/seaquest.opensciencegrid.org/seaquest/software/e1039/resource/alignment/run6/calibration.txt
+EventReducer: realization enabled. 
+what is fitter_choice? KalmanFitterRefTrack
+TruthNodeMaker: failed locating HepMCGenEvent, event process info will be missing
+WARNING:: SimAna::GetNode No drift chamber node 
+WARNING:: SimAna::GetNode No nodoscope node.
+WARNING:: SimAna::GetNode No prototube node. 
+WARNING:: SimAna::GetNode No EMcal node
+--------------------------------------
+
+List of Nodes in Fun4AllServer:
+Node Tree under TopNode TOP
+TOP (PHCompositeNode)/
+   DST (PHCompositeNode)/
+      G4TruthInfo (IO,PHG4TruthInfoContainer)
+      SQHitVector (IO,SQHitVector_v1)
+      SRecEvent (IO,SRecEvent)
+      SQEvent (IO,SQEvent_v1)
+      SQMCEvent (IO,SQMCEvent_v1)
+      SQTruthTrackVector (IO,SQTrackVector_v1)
+      SQTruthDimuonVector (IO,SQDimuonVector_v1)
+      SQEventEmb (IO,SQEvent_v1)
+      SQMCEventEmb (IO,SQMCEvent_v1)
+   RUN (PHCompositeNode)/
+      FIELD_CONFIG (IO,PHFieldConfig_v3)
+      G4GEOPARAM_Shielding1_0 (IO,PdbParameterMapContainer)
+      G4GEOPARAM_Shielding2_0 (IO,PdbParameterMapContainer)
+      G4GEOPARAM_Shielding3_0 (IO,PdbParameterMapContainer)
+      G4GEOPARAM_fmag_0 (IO,PdbParameterMapContainer)
+      G4GEOPARAM_kmag_0 (IO,PdbParameterMapContainer)
+      MUID_absorber (PHCompositeNode)/
+         G4GEOPARAM_MUID_absorber (IO,PdbParameterMapContainer)
+      Collimator (PHCompositeNode)/
+         G4GEOPARAM_Collimator (IO,PdbParameterMapContainer)
+      Coil (PHCompositeNode)/
+         G4GEOPARAM_Coil (IO,PdbParameterMapContainer)
+      Target (PHCompositeNode)/
+         G4GEOPARAM_Target (IO,PdbParameterMapContainer)
+      D0U (PHCompositeNode)/
+         G4GEOPARAM_D0U (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0U (IO,PHG4BlockGeomContainer)
+      D0Up (PHCompositeNode)/
+         G4GEOPARAM_D0Up (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0Up (IO,PHG4BlockGeomContainer)
+      D0X (PHCompositeNode)/
+         G4GEOPARAM_D0X (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0X (IO,PHG4BlockGeomContainer)
+      D0Xp (PHCompositeNode)/
+         G4GEOPARAM_D0Xp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0Xp (IO,PHG4BlockGeomContainer)
+      D0V (PHCompositeNode)/
+         G4GEOPARAM_D0V (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0V (IO,PHG4BlockGeomContainer)
+      D0Vp (PHCompositeNode)/
+         G4GEOPARAM_D0Vp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D0Vp (IO,PHG4BlockGeomContainer)
+      D2V (PHCompositeNode)/
+         G4GEOPARAM_D2V (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2V (IO,PHG4BlockGeomContainer)
+      D2Vp (PHCompositeNode)/
+         G4GEOPARAM_D2Vp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2Vp (IO,PHG4BlockGeomContainer)
+      D2Xp (PHCompositeNode)/
+         G4GEOPARAM_D2Xp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2Xp (IO,PHG4BlockGeomContainer)
+      D2X (PHCompositeNode)/
+         G4GEOPARAM_D2X (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2X (IO,PHG4BlockGeomContainer)
+      D2U (PHCompositeNode)/
+         G4GEOPARAM_D2U (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2U (IO,PHG4BlockGeomContainer)
+      D2Up (PHCompositeNode)/
+         G4GEOPARAM_D2Up (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D2Up (IO,PHG4BlockGeomContainer)
+      D3pVp (PHCompositeNode)/
+         G4GEOPARAM_D3pVp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pVp (IO,PHG4BlockGeomContainer)
+      D3pV (PHCompositeNode)/
+         G4GEOPARAM_D3pV (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pV (IO,PHG4BlockGeomContainer)
+      D3pXp (PHCompositeNode)/
+         G4GEOPARAM_D3pXp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pXp (IO,PHG4BlockGeomContainer)
+      D3pX (PHCompositeNode)/
+         G4GEOPARAM_D3pX (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pX (IO,PHG4BlockGeomContainer)
+      D3pUp (PHCompositeNode)/
+         G4GEOPARAM_D3pUp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pUp (IO,PHG4BlockGeomContainer)
+      D3pU (PHCompositeNode)/
+         G4GEOPARAM_D3pU (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3pU (IO,PHG4BlockGeomContainer)
+      D3mVp (PHCompositeNode)/
+         G4GEOPARAM_D3mVp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mVp (IO,PHG4BlockGeomContainer)
+      D3mV (PHCompositeNode)/
+         G4GEOPARAM_D3mV (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mV (IO,PHG4BlockGeomContainer)
+      D3mXp (PHCompositeNode)/
+         G4GEOPARAM_D3mXp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mXp (IO,PHG4BlockGeomContainer)
+      D3mX (PHCompositeNode)/
+         G4GEOPARAM_D3mX (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mX (IO,PHG4BlockGeomContainer)
+      D3mUp (PHCompositeNode)/
+         G4GEOPARAM_D3mUp (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mUp (IO,PHG4BlockGeomContainer)
+      D3mU (PHCompositeNode)/
+         G4GEOPARAM_D3mU (IO,PdbParameterMapContainer)
+      BLOCKGEOM_D3mU (IO,PHG4BlockGeomContainer)
+      H1B (PHCompositeNode)/
+         G4GEOPARAM_H1B (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H1B (IO,PHG4BlockGeomContainer)
+      H1T (PHCompositeNode)/
+         G4GEOPARAM_H1T (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H1T (IO,PHG4BlockGeomContainer)
+      H1L (PHCompositeNode)/
+         G4GEOPARAM_H1L (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H1L (IO,PHG4BlockGeomContainer)
+      H1R (PHCompositeNode)/
+         G4GEOPARAM_H1R (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H1R (IO,PHG4BlockGeomContainer)
+      H2L (PHCompositeNode)/
+         G4GEOPARAM_H2L (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H2L (IO,PHG4BlockGeomContainer)
+      H2R (PHCompositeNode)/
+         G4GEOPARAM_H2R (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H2R (IO,PHG4BlockGeomContainer)
+      H2B (PHCompositeNode)/
+         G4GEOPARAM_H2B (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H2B (IO,PHG4BlockGeomContainer)
+      H2T (PHCompositeNode)/
+         G4GEOPARAM_H2T (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H2T (IO,PHG4BlockGeomContainer)
+      H3B (PHCompositeNode)/
+         G4GEOPARAM_H3B (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H3B (IO,PHG4BlockGeomContainer)
+      H3T (PHCompositeNode)/
+         G4GEOPARAM_H3T (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H3T (IO,PHG4BlockGeomContainer)
+      H4Y1L (PHCompositeNode)/
+         G4GEOPARAM_H4Y1L (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4Y1L (IO,PHG4BlockGeomContainer)
+      H4Y1R (PHCompositeNode)/
+         G4GEOPARAM_H4Y1R (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4Y1R (IO,PHG4BlockGeomContainer)
+      H4Y2L (PHCompositeNode)/
+         G4GEOPARAM_H4Y2L (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4Y2L (IO,PHG4BlockGeomContainer)
+      H4Y2R (PHCompositeNode)/
+         G4GEOPARAM_H4Y2R (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4Y2R (IO,PHG4BlockGeomContainer)
+      H4B (PHCompositeNode)/
+         G4GEOPARAM_H4B (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4B (IO,PHG4BlockGeomContainer)
+      H4T (PHCompositeNode)/
+         G4GEOPARAM_H4T (IO,PdbParameterMapContainer)
+      BLOCKGEOM_H4T (IO,PHG4BlockGeomContainer)
+      P1Y1 (PHCompositeNode)/
+         G4GEOPARAM_P1Y1 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P1Y1 (IO,PHG4BlockGeomContainer)
+      P1Y2 (PHCompositeNode)/
+         G4GEOPARAM_P1Y2 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P1Y2 (IO,PHG4BlockGeomContainer)
+      P1X1 (PHCompositeNode)/
+         G4GEOPARAM_P1X1 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P1X1 (IO,PHG4BlockGeomContainer)
+      P1X2 (PHCompositeNode)/
+         G4GEOPARAM_P1X2 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P1X2 (IO,PHG4BlockGeomContainer)
+      P2X1 (PHCompositeNode)/
+         G4GEOPARAM_P2X1 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P2X1 (IO,PHG4BlockGeomContainer)
+      P2X2 (PHCompositeNode)/
+         G4GEOPARAM_P2X2 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P2X2 (IO,PHG4BlockGeomContainer)
+      P2Y1 (PHCompositeNode)/
+         G4GEOPARAM_P2Y1 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P2Y1 (IO,PHG4BlockGeomContainer)
+      P2Y2 (PHCompositeNode)/
+         G4GEOPARAM_P2Y2 (IO,PdbParameterMapContainer)
+      BLOCKGEOM_P2Y2 (IO,PHG4BlockGeomContainer)
+      DP1TL (PHCompositeNode)/
+         G4GEOPARAM_DP1TL (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP1TL (IO,PHG4BlockGeomContainer)
+      DP1TR (PHCompositeNode)/
+         G4GEOPARAM_DP1TR (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP1TR (IO,PHG4BlockGeomContainer)
+      DP1BL (PHCompositeNode)/
+         G4GEOPARAM_DP1BL (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP1BL (IO,PHG4BlockGeomContainer)
+      DP1BR (PHCompositeNode)/
+         G4GEOPARAM_DP1BR (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP1BR (IO,PHG4BlockGeomContainer)
+      DP2TL (PHCompositeNode)/
+         G4GEOPARAM_DP2TL (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP2TL (IO,PHG4BlockGeomContainer)
+      DP2TR (PHCompositeNode)/
+         G4GEOPARAM_DP2TR (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP2TR (IO,PHG4BlockGeomContainer)
+      DP2BL (PHCompositeNode)/
+         G4GEOPARAM_DP2BL (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP2BL (IO,PHG4BlockGeomContainer)
+      DP2BR (PHCompositeNode)/
+         G4GEOPARAM_DP2BR (IO,PdbParameterMapContainer)
+      BLOCKGEOM_DP2BR (IO,PHG4BlockGeomContainer)
+      EMCal (PHCompositeNode)/
+         G4GEOPARAM_EMCal (IO,PdbParameterMapContainer)
+      SQRun (IO,SQRun_v1)
+      GEOMETRY_IO (IO,PHGeomIOTGeo)
+   PAR (PHCompositeNode)/
+      FIELD_MAP (PHDataNode)
+      GEOMETRY (PHDataNode)
+
+
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 49.696
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 2.7306
+Tracklet in station 7
+17 hits in this station with chisq = 11.739
+Momentum in z @st1: 15.397 +/- 0.15428
+Momentum in z @st3: 15.385 +/- 0.15416
+Charge: -1
+L: 0 D0U(1) 90  -6.9424 -0.019535 = R: 3 D0Up(2) 91  -6.7703 0.16411 = L: 10 D0X(3) 70  -7.1048 -0.094629 = U: -1 D0Xp(4) 0  -1.8211e-37 999 = R: 4 D0V(5) 93  -6.6651 -0.025322 = L: 7 D0Vp(6) 93  -6.6132 0.03654 = L: 18 D2V(13) 54  -23.026 0.1076 = R: 20 D2Vp(14) 54  -23.347 0.062203 = L: 24 D2Xp(15) 44  -26.551 -0.020004 = R: 22 D2X(16) 44  -26.813 0.012367 = L: 14 D2U(17) 51  -28.453 -0.085054 = L: 16 D2Up(18) 50  -28.769 -0.1297 = R: 32 D3mVp(25) 54  -50.399 0.048574 = R: 30 D3mV(26) 53  -50.523 0.011058 = L: 36 D3mXp(27) 35  -49.867 -0.036062 = R: 34 D3mX(28) 35  -49.883 0.031782 = L: 28 D3mUp(29) 36  -46.308 -0.061035 = R: 26 D3mU(30) 36  -46.322 0.0029571 = U: -1 H2B(37) 16244  -4.8715e+19 4.7783e-299 = U: -1 H2T(38) 16244  -4.8715e+19 6.7904e-310 = U: -1 H3B(39) 16244  -4.8715e+19 1.2732e-313 = U: -1 H3T(40) 16244  -4.8715e+19 1.2732e-313 = U: -1 H4Y1L(41) 16244  -4.8715e+19 2.4224 = U: -1 H4Y1R(42) 16244  -4.8715e+19 9999 = 
+X-Z: (-0.042305 +/- 9.3026e-05)*z + (30.188 +/- 0.16265)
+Y-Z: (-0.0058122 +/- 0.00017155)*z + (1.3654 +/- 0.24118)
+KMAG projection: X =  -14.835 +/- 0.26165
+KMAG projection: Y =  -4.8204 +/- 0.42375
+KMAGSTR =  -0.951
+and for good measure, let's print out the possible slope info
+possible X lines
+possible U lines
+possible V lines
+Tracklet in station 7
+18 hits in this station with chisq = 2.4224
+Momentum in z @st1: 7.2516 +/- 0.033913
+Momentum in z @st3: 7.2443 +/- 0.033879
+Charge: 1
+L: 1 D0U(1) 90  -6.7856 -0.0070545 = R: 3 D0Up(2) 91  -6.7703 0.014602 = L: 11 D0X(3) 71  -6.5014 0.0075578 = R: 13 D0Xp(4) 72  -6.5144 -0.010056 = L: 6 D0V(5) 94  -5.7147 0.010791 = R: 9 D0Vp(6) 95  -5.7405 -0.012506 = L: 19 D2V(13) 68  4.601 0.0064811 = R: 21 D2Vp(14) 68  4.946 0.020387 = L: 25 D2Xp(15) 58  2.8117 -0.0026238 = L: 23 D2X(16) 58  3.1081 -0.024316 = L: 15 D2U(17) 65  0.66048 -0.069035 = L: 17 D2Up(18) 65  1.0813 0.065581 = R: 33 D3mVp(25) 90  22.123 -0.017417 = L: 31 D3mV(26) 89  22.28 0.058199 = R: 37 D3mXp(27) 74  27.925 -0.032218 = R: 35 D3mX(28) 74  28.035 -0.014827 = L: 29 D3mUp(29) 75  32.203 0.039807 = R: 27 D3mU(30) 75  32.26 0.00094055 = U: -1 H2B(37) 16244  -4.8715e+19 0 = U: -1 H2T(38) 16244  -4.8715e+19 6.7904e-310 = U: -1 H3B(39) 16244  -4.8715e+19 1.3907e-309 = U: -1 H3T(40) 16244  -4.8715e+19 1.931e-315 = U: -1 H4Y1L(41) 16244  -4.8715e+19 0 = U: -1 H4Y1R(42) 16244  -4.8715e+19 2.3278e-310 = 
+X-Z: (0.045505 +/- 9.3061e-05)*z + (-58.141 +/- 0.1627)
+Y-Z: (-0.013135 +/- 0.00017111)*z + (5.235 +/- 0.24011)
+KMAG projection: X =  -9.7113 +/- 0.26174
+KMAG projection: Y =  -8.7442 +/- 0.42222
+KMAGSTR =  -0.951
+and for good measure, let's print out the possible slope info
+possible X lines
+possible U lines
+possible V lines
+where am i? 0
+pushback
+pushedback
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 53.9
+SRecTrack getChisq = 20.691
+SRecTrack getChisq = 20.691
+SRecTrack getChisq = 53.9
+std::abs( ((dimuon->get_mom()).X() - (recDimuon->get_mom()).X()) ) = 0.074471 std::abs( ((dimuon->get_mom()).Y() - (recDimuon->get_mom()).Y()) ) = 0.0062012 std::abs( ((dimuon->get_mom()).Z() - (recDimuon->get_mom()).Z()) ) = 3.0636 std::abs( ((recDimuon->p_pos).Px() - (dimuon->get_mom_pos()).Px())) = 0.00016886 std::abs( ((recDimuon->p_pos).Py() - (dimuon->get_mom_pos()).Py()) ) = 0.01658 std::abs( ((recDimuon->p_pos).Pz() - (dimuon->get_mom_pos()).Pz())) = 0.58774 std::abs( ((recDimuon->p_neg).Px() - (dimuon->get_mom_neg()).Px()) ) = 0.074302 std::abs( ((recDimuon->p_neg).Py() - (dimuon->get_mom_neg()).Py())) = 0.022781 std::abs( ((recDimuon->p_neg).Pz() - (dimuon->get_mom_neg()).Pz()) ) = 2.4758 numFailures =  0
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 2.3968
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 228.89
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 4.5592
+where am i? 0
+pushback
+pushedback
+SRecTrack getChisq = 7.986
+----------------------- Stats for DPTriggerAnalyzer_TOP ------------------------
+accumulated time (ms):	8.7339
+per event time: (ms)	 0.87339
+-------------------------------------- ** --------------------------------------
+-------------------------- Stats for DoEmbedding_TOP ---------------------------
+accumulated time (ms):	94.411
+per event time: (ms)	 9.4411
+-------------------------------------- ** --------------------------------------
+----------------------------- Stats for SQReco_TOP -----------------------------
+accumulated time (ms):	28453
+per event time: (ms)	 2845.3
+-------------------------------------- ** --------------------------------------
+----------------------------- Stats for SimAna_TOP -----------------------------
+accumulated time (ms):	74.73
+per event time: (ms)	 7.473
+-------------------------------------- ** --------------------------------------
+------------------------- Stats for TruthNodeMaker_TOP -------------------------
+accumulated time (ms):	5.9069
+per event time: (ms)	 0.59069
+-------------------------------------- ** --------------------------------------
+--------------------------- Stats for VertexFit_TOP ----------------------------
+accumulated time (ms):	3.9072
+per event time: (ms)	 0.39072
+-------------------------------------- ** --------------------------------------
+All done
+I ran, now ls tmp
+total 209M
+-rw-r--r-- 1 bosco_cms bosco_cms 767K May 17 17:11 DST.root
+-rw-r--r-- 1 bosco_cms bosco_cms 127K May 17 17:11 output.root
+drwxr-xr-x 2 bosco_cms bosco_cms 4.0K May 17 17:09 lib64
+-rwxr-xr-x 1 bosco_cms bosco_cms  51M May 17 17:09 embedding_data.root
+-rw-r--r-- 1 bosco_cms bosco_cms  352 May 17 17:09 Brem_0.250000_z200_600_eps_-4.4_singularity.sh
+-rwxr-xr-x 1 bosco_cms bosco_cms 158M May 17 17:09 Brem_0.250000_z200_600_eps_-4.4_DST.root
+-rw-r--r-- 1 bosco_cms bosco_cms 4.1K May 17 17:09 RunEmbedding.C
+-rwxr-xr-x 1 bosco_cms bosco_cms  371 May 17 17:09 setup_mye1039.sh
+Copying 129970 bytes file:///tmp/163635/output.root => gsiftp://se01.cmsaf.mit.edu:2811//mitgroups/DarkQuest/dhoang/Data_EB_Aprime_Muons_Scan_z200_600_17_05_2022/Brem_0.250000_z200_600_eps_-4.4.root
